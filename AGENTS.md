@@ -52,7 +52,7 @@ scripts/check-email-opt-out.mjs
    - Público: subir o CSV e apontar as colunas de e-mail e de primeiro nome.
    - Envio: mandar o teste primeiro, conferir no celular e no computador, e só então agendar para a base.
 
-**Limite conhecido:** o Works bloqueia quem se descadastrou, mas não quem teve o e-mail devolvido em envio anterior.
+O Works não manda para quem se descadastrou, reclamou de spam ou teve devolução permanente (endereço inexistente), mesmo que o contato esteja no CSV. Devolução temporária (caixa cheia, recusa do provedor) continua recebendo.
 
 ## Histórico
 
