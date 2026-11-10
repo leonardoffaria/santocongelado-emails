@@ -30,8 +30,7 @@ scripts/check-email-opt-out.mjs
 ## Regras de texto (valem para toda peça)
 
 - Sempre **Santo Congelado** por extenso, nunca só "Santo".
-- **Nunca "sem juros".** O parcelamento é "até 3x no cartão de crédito", e a nota diz: "À vista no cartão sem acréscimo; o acréscimo de 2x e 3x aparece no checkout antes de pagar."
-- **Frete grátis acima de R$ 399 só nas regiões com frete de R$ 15 e R$ 19.** A nota diz: "Frete grátis para pedidos acima de R$ 399 em produtos, nas regiões com frete de R$ 15 e R$ 19; confira seu CEP no checkout."
+- **Parcelamento e frete: conferir no ar antes de escrever.** Desde 06/11/2026 a loja está com "até 3x sem juros" e frete grátis acima de R$ 199 em todas as regiões (antes: acréscimo em 2x e 3x e frete grátis acima de R$ 399 só nas regiões de R$ 15 e R$ 19). A peça diz o que a página do produto e o checkout mostram no dia do envio.
 - **Cupom:** o link com `?coupon=` não aplica o cupom. A peça sempre diz "Digite o cupom no checkout, antes de pagar." O cupom precisa existir na loja antes do envio; valor mínimo, validade e uso por cliente vão iguais na nota legal.
 - **Vitrine:** 4 produtos entre os mais vendidos dos últimos 12 meses com 10 ou mais unidades em estoque. Nome, descrição curta, preço e link iguais aos da loja.
 - Manter `{{first_name}}` na saudação e o link "Cancelar inscrição" com `href="{{unsubscribe_url}}"` no rodapé. O Works troca os dois no envio; na prévia do Pages eles aparecem literais. Sem o link de descadastro o CC recusa a peça.
